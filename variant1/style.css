@@ -12,6 +12,10 @@ body {
 		". nav main .";
 }
 
+img {
+	max-width: 100%;
+}
+
 h1 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 3rem;
@@ -47,6 +51,7 @@ header {
 	background-color: #f2edf1;
 /*	border-left: 5px #e35fbf dotted;*/
 	border-bottom: 5px #e35fbf dotted;
+	white-space: nowrap;
 }
 
 .header-empty {
@@ -59,6 +64,7 @@ header {
 	font-family: "Cookie", cursive;
 	color: #c7408c;
 	font-size: 2rem;
+	white-space: nowrap;
 }
 
 
@@ -132,6 +138,7 @@ main {
 	}
 	
 	h1 {
+		display: block;
 		text-align: center;
 	}
 	
@@ -144,6 +151,10 @@ main {
 		background-color: #fded5f;
 		margin: 0.5rem;
 ;
+	}
+	
+	.slogan {
+		display: none;
 	}
 	
 	.avatar {
